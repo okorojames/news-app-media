@@ -1,4 +1,5 @@
 import Hamburger from './Hamburger';
+import Search_keyword from './Search_keyword';
 const Header = () => {
   return (
     <header>
@@ -30,6 +31,7 @@ const Header = () => {
       </nav>
       {/* Third Header */}
       {/* Third Header */}
+      <Search_keyword/>
     </header>
   )
 }
