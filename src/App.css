@@ -28,6 +28,9 @@ body{
   background: var(--greyish-light);
   color: var(--dark-three);
 }
+header{
+  margin-bottom: 4rem;
+}
 .first-header{
   background: var(--pure-light);
   margin-bottom: 4rem;
@@ -120,34 +123,4 @@ nav{
   outline: none;
   box-shadow: 0 0 0 2.5px var(--light-three);
 }
-/***************/
-/*MEDIA QUERIES*/
-/***************/
-@media screen and (max-width: 768px){
-  html{
-    font-size: 52.8%;
-  }
-}
-/*  */
-/*  */
-@media screen and (max-width: 576px){
-  html{
-    font-size: 62.5%;
-  }
-  .nav-links{
-    position: fixed;
-    flex-direction: column;
-    background: var(--dark-two);
-    top: 30%;
-    height: 50%;
-    left: 0;
-    right: 0;
-  }
-  .nav-link{
-    color: var(--light-one);
-  }
-  .hamburger{
-    display: block;
-    cursor: pointer;
-  }
-}
+

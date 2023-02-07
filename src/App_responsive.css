@@ -1,0 +1,35 @@
+/***************/
+/*MEDIA QUERIES*/
+/***************/
+@media screen and (max-width: 768px){
+  html{
+    font-size: 52.8%;
+  }
+}
+/*  */
+/*  */
+@media screen and (max-width: 576px){
+  html{
+    font-size: 62.5%;
+  }
+  .nav-links{
+    width: 100vw;
+    position: fixed;
+    flex-direction: column;
+    background: var(--dark-two);
+    top: 30%;
+    height: 50%;
+    left: 300%;
+    transition: all .5s ease-in-out;
+  }
+  .nav-link{
+    color: var(--light-one);
+  }
+  .hamburger{
+    display: block;
+    cursor: pointer;
+  }
+}
+.nav-toggled.burger-one{
+  transform: rotate(-45deg) translate(0 -8px);
+}
