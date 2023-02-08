@@ -30,6 +30,7 @@ body{
   background: var(--greyish-light);
   color: var(--dark-three);
   transition: all .5s ease-in-out;
+  margin-bottom: 8rem;
 }
 body.body-toggle{
   background: var(--dark-three);
@@ -155,6 +156,7 @@ nav{
 .three-col-carousel{
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -167,6 +169,9 @@ nav{
   align-items: center;
   gap: 1.8rem;
   background: var(--pure-light);
+}
+.carousel-card-image{
+  height: 100% !important;
 }
 .carousel-card-context{
   opacity: .8;

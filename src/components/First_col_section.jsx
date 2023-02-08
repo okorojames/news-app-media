@@ -9,17 +9,17 @@ const First_col_section = () => {
     <div className="three-col-carousel">
       {/*  */}
       <div className="carousel-card">
-        <img src={imageOne} alt="" />
+        <img className="carousel-card-image" src={imageOne} alt="" />
         <div className="carousel-card-context">Lorem ipsum, dolor sit amet consectetur adipisicing elit officia.</div>
       </div>
       {/*  */}
       <div className="carousel-card">
-        <img src={imageTwo} alt="" />
+        <img className="carousel-card-image" src={imageTwo} alt="" />
         <div className="carousel-card-context">Lorem ipsum, dolor sit amet consectetur adipisicing elit officia.</div>
       </div>
       {/*  */}
       <div className="carousel-card">
-        <img src={imageThree} alt="" />
+        <img className="carousel-card-image" src={imageThree} alt="" />
         <div className="carousel-card-context">Lorem ipsum, dolor sit amet consectetur adipisicin elit. officia.</div>
       </div>
       {/* DARK AND LIGHT MODE */}
