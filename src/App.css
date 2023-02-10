@@ -145,7 +145,7 @@ nav{
   outline: none;
   box-shadow: 0 0 0 1.5px var(--dark-two);
 }
-.search-keyword-box:hover,.search-keyword-box:active{
+.search-keyword-box:hover,.search-keyword-box:active,.search-keyword-box:focus{
   border: none;
   outline: none;
   box-shadow: 0 0 0 2.5px var(--light-three);
