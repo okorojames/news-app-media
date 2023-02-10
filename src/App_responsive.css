@@ -19,7 +19,7 @@
     background: var(--dark-two);
     top: 30%;
     height: 50%;
-    left: 300%;
+    /* left: 300%; */
     transition: all .5s ease-in-out;
   }
   .nav-link{
